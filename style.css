@@ -1,0 +1,362 @@
+body{
+    display: flex;
+    margin: 0;
+    height:100vh;
+    font-family: 'Lato', sans-serif;
+    overflow: hidden;
+    width: 100vw;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#666666+-1,4c4c4c+0,666666+0,2c2c2c+1,2b2b2b+1,000000+51,111111+100,131313+100 */
+    background: rgb(102,102,102); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(102,102,102,1) -1%, rgba(76,76,76,1) 0%, rgba(102,102,102,1) 0%, rgba(44,44,44,1) 1%, rgba(43,43,43,1) 1%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 100%, rgba(19,19,19,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(102,102,102,1) -1%,rgba(76,76,76,1) 0%,rgba(102,102,102,1) 0%,rgba(44,44,44,1) 1%,rgba(43,43,43,1) 1%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 100%,rgba(19,19,19,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(102,102,102,1) -1%,rgba(76,76,76,1) 0%,rgba(102,102,102,1) 0%,rgba(44,44,44,1) 1%,rgba(43,43,43,1) 1%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 100%,rgba(19,19,19,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+
+    width: 5vw;
+    min-width: 55px;
+}
+.t_dot{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.head_opt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header img{
+    cursor: pointer;
+}
+.opas{
+    opacity: 0.2;
+    width :100%;
+    
+}.opas:hover{
+    opacity: 1.0;
+}
+main{
+    
+    width:81% ;
+    display: flex;
+}
+.left_men{
+    width: 23vw;
+
+    
+
+    
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4c4c4c+0,595959+12,666666+18,474747+41,606060+100,131313+100,606060+100 */
+    background: rgb(76,76,76); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 18%, rgba(71,71,71,1) 41%, rgba(96,96,96,1) 100%, rgba(19,19,19,1) 100%, rgba(96,96,96,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 18%,rgba(71,71,71,1) 41%,rgba(96,96,96,1) 100%,rgba(19,19,19,1) 100%,rgba(96,96,96,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 18%,rgba(71,71,71,1) 41%,rgba(96,96,96,1) 100%,rgba(19,19,19,1) 100%,rgba(96,96,96,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#606060',GradientType=0 ); /* IE6-9 */
+
+}
+.l_top_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 5% 20px 5%;
+}
+.l_top_menu h3{
+    color: white;
+    margin: 0;
+    margin-right:5px ;
+}
+.l_more{
+    display: flex;
+    align-items: center;
+}
+.l_top_ch{
+    display: flex;
+    align-items: center;
+    color: #A4A4A4;
+    margin-left: 5%;
+}
+.l_nam{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #A4A4A4;
+
+}
+.channels{
+    color: #B5B5B5;
+    margin-left: 7%;
+    height: 40%;
+    overflow-y: scroll;
+}
+.channels::-webkit-scrollbar{
+    background: transparent;
+    width: 7px;
+}
+.channels::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: #A4A4A4;
+    width: 7px;
+}
+.friends{
+    overflow-y: scroll;
+    height: 28%;
+    margin-left: 5%;
+}
+.friends::-webkit-scrollbar{
+    background: transparent;
+    width: 7px;
+}
+.friends::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: #A4A4A4;
+    width: 7px;
+}
+.friend{
+    display: flex;
+    align-items: center;
+}
+.friend p{
+    color: #B5B5B5;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+.chat{
+    width: 77%;
+    height: 100%;
+    position: relative;
+    
+}
+.top_menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 20 0;
+    align-items: center;
+    border-bottom: 1px solid #000000;
+    border-width: 120%;
+    height: 10%;
+    top: 0;
+}
+
+.tm_head{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.tm_right{
+    display: flex;
+    margin-right: 10px;
+    
+}
+
+
+.po{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+.po p{
+    color: #A4A4A4;
+    margin-right: 10px;
+}
+.top_menu input{
+    background-image: url(img/chat/search.png);
+    background-repeat: no-repeat ;
+    background-position: right;
+    margin-right: 10px;
+    height: 33px;
+}
+.not_men{
+    display: flex;
+    align-items: center;
+}
+.not{
+    margin-right: 10px;
+}
+
+.main_chat{
+    overflow-y: scroll;
+    
+    height: 80%;
+   
+}
+.main_chat::-webkit-scrollbar{
+    background: transparent;
+    width: 7px;
+    
+}
+.main_chat::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: #A4A4A4;
+    width: 7px;
+    
+}
+.date{
+    
+    position: relative;
+    border-bottom: #A4A4A4 1px solid;
+}
+.container_date_p {
+
+    position: absolute;
+    bottom: -8px;
+   width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.data_p{
+    background-color: white;
+    padding: 0 5px;
+    color: #A4A4A4;
+    margin: 0;
+
+    
+}
+.message_gl{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+    
+    padding-bottom: 30px;
+}
+.message_gl img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.message{
+    display: block;
+}
+.user{
+    display: flex;
+}
+.user h4{
+    font-weight: bold;
+    margin: 0;
+}
+.user h6{
+    color:#8D8D8D;
+    margin: 0;
+    margin-left: 5px;
+}
+.n_txt{
+    margin: 0;
+    color: #000000;
+}
+.bl_txt{
+    color: #3577EF;
+    margin: 0;
+
+}
+.chatp{
+    width: 40px;
+    height: 40px;
+}
+.button_menu{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 10%;
+    border-top: 1px solid #000000;
+    position: absolute;
+    bottom: 0;
+    
+}
+.button_menu img{
+    cursor: pointer;
+}
+.add{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+#smile{
+    position: absolute;
+    right: 2%;
+}
+.button_menu input{
+    border: none;
+    width: 70%;
+}
+
+
+
+
+
+
+footer{
+    width: 14%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f5f6f6+0,dbdce2+41,b8bac6+94,b8bac6+100,f5f6f6+100,b8bac6+101 */
+    background: rgb(245,246,246); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(245,246,246,1) 0%, rgba(219,220,226,1) 41%, rgba(184,186,198,1) 94%, rgba(184,186,198,1) 100%, rgba(245,246,246,1) 100%, rgba(184,186,198,1) 101%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(245,246,246,1) 0%,rgba(219,220,226,1) 41%,rgba(184,186,198,1) 94%,rgba(184,186,198,1) 100%,rgba(245,246,246,1) 100%,rgba(184,186,198,1) 101%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(245,246,246,1) 0%,rgba(219,220,226,1) 41%,rgba(184,186,198,1) 94%,rgba(184,186,198,1) 100%,rgba(245,246,246,1) 100%,rgba(184,186,198,1) 101%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#b8bac6',GradientType=0 ); /* IE6-9 */
+  
+}
+.photo{
+    height: 200px;
+    width: 100%;
+}
+.name{
+    padding: 10%;
+}
+.name h3{
+    margin: 0;
+}
+.name p{
+    color:  #5F6164;
+    margin: 0;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+.fb button{
+    background-color: #3577EF;
+    color: white;
+    border: none;
+    
+}
+.fb{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.bg{
+    width:60%;
+    margin-right: 2%;
+
+}
+.info h6{
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.info p{
+    margin: 0;
+    margin-right: 15px;
+    
+}
+.info{
+    margin-bottom: 225px;
+    margin-left: 15px;
+    
+}
