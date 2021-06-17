@@ -292,10 +292,20 @@ main{
 }
 .button_menu input{
     border: none;
+    border-bottom: #A4A4A4 1px solid;
     width: 70%;
 }
-
-
+.button_menu input:focus{
+    outline: none;
+    border-bottom: #A4A4A4 1px solid;
+}
+.send{
+    margin-left: 3%;
+}
+.b_send{
+    border: #A4A4A4 1px solid;
+    background-color: transparent;
+}
 
 
 
@@ -359,4 +369,32 @@ footer{
     margin-bottom: 225px;
     margin-left: 15px;
     
+}
+
+@media screen and (max-width: 958px) {
+    header{
+        width: 10%;
+    }
+    main{
+        width: 90%;
+    }
+    footer{
+        display: none;
+    }
+}
+@media screen and (max-width: 600px) {
+    header{
+        display: none;
+    }
+    main{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .left_men{
+        display: none;
+    }
+    .chat{
+        width: 100%;
+    }
 }
