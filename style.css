@@ -160,6 +160,7 @@ main{
 .tm_right{
     display: flex;
     margin-right: 10px;
+    position: relative;
     
 }
 
@@ -178,6 +179,7 @@ main{
     background-repeat: no-repeat ;
     background-position: right;
     margin-right: 10px;
+    margin-top: 5px;
     height: 33px;
 }
 .not_men{
@@ -187,6 +189,69 @@ main{
 .not{
     margin-right: 10px;
 }
+.more{
+    cursor: pointer;
+}
+.cub{
+    width: 60px;
+    height: 100px;
+    position: fixed;
+    background-color:rgba(0,0,0,.3);
+    opacity: 0,4;
+    top:-200px;
+    right: 14%;
+    transition: top .4s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    z-index: 10;
+}
+
+.img_p{
+    cursor: pointer;
+}
+.cub_img{
+    position: fixed;
+    top:-160px;
+    right: 19%;
+    transition: top .4s;
+    display: flex;
+    z-index: 10;
+}
+.search_act{
+    top: 80px;
+    z-index: 10;
+}
+.sel_photo{
+    display: flex;
+}
+.ch_img{
+    transform: rotate(270deg);
+    font-size: 30px;
+    cursor: pointer;
+    margin: 0;
+}
+.ch_img_active{
+    transform: rotate(0deg);
+}
+.cub_img_active{
+    top: 80px;
+}
+.cub.cub_active{
+    top: 80px;
+   
+}
+
+.bg{   
+    width: 28px;
+    cursor: pointer;
+}
+.b_send{
+    cursor: pointer;
+}
+
 
 .main_chat{
     overflow-y: scroll;
@@ -351,7 +416,7 @@ footer{
     justify-content: center;
     margin-top: 10px;
 }
-.bg{
+.fbg{
     width:60%;
     margin-right: 2%;
 
@@ -380,6 +445,12 @@ footer{
     }
     footer{
         display: none;
+    }
+    .cub{
+        right: 0%
+    }
+    .cub_img{
+        right: 65px;
     }
 }
 @media screen and (max-width: 600px) {
